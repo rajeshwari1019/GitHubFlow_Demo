@@ -51,6 +51,14 @@ variable "create_instance_from_template" {
 //  default     = true
 //}
 //
+//
+//variable "create_instance_from_template" {
+//  type = bool
+//
+//  description = "Whether to create and instance from the template or not. If false, no instance is created, but the instance template is created and usable by a MIG"
+//  default     = true
+//}
+//
 variable "tags" {
   type = list(string)
 
