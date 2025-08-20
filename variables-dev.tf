@@ -1,5 +1,7 @@
 /**
  * Copyright 2021 Google LLC
+
+ * Let add some new content for testing purpose only.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,7 +43,14 @@ variable "create_instance_from_template" {
   description = "Whether to create and instance from the template or not. If false, no instance is created, but the instance template is created and usable by a MIG"
   default     = true
 }
-
+//
+//variable "create_instance_from_template" {
+//  type = bool
+//
+//  description = "Whether to create and instance from the template or not. If false, no instance is created, but the instance template is created and usable by a MIG"
+//  default     = true
+//}
+//
 variable "tags" {
   type = list(string)
 
